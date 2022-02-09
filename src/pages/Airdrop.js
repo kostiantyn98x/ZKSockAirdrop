@@ -22,10 +22,10 @@ const Airdrop = () => {
   const chainId = Number(STREAM_CHAIN_ID);    
   const isMobile = useMediaQuery({ query: '(max-width: 480px)' });
   return (
-    <StreamProvider
-      contractAddress={STREAM_CONTRACT_ADDRESS}
-      chainId={Number(chainId)}
-    >
+    // <StreamProvider
+    //   contractAddress={STREAM_CONTRACT_ADDRESS}
+    //   chainId={Number(chainId)}
+    // >
       
     <StreamClaimingProvider>
     <div>
