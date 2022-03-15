@@ -1,19 +1,6 @@
 import { StructTag, SuiMoveObject } from '@mysten/sui.js'
 import { tagToType, typeToTag } from './core/type'
 
-export class Balance {
-  type
-  balance
-  constructor(typeArg, value) {
-    this.type = typeArg
-    this.value = value
-  }
-
-  static fromMoveObjectField(type, field) {
-    const news = new Balance(type, BigInt(field))
-    return new Balance(type, BigInt(field))
-  }
-}
 
 export class Supply {
   type

@@ -17,11 +17,6 @@ import {
 
 import { useMediaQuery } from 'react-responsive';
 
-const STREAM_CHAIN_ID = "42161";
-const STREAM_CONTRACT_ADDRESS = "0x01d356f2a9c7d72d311ccce2670c956a8af9d9b4";
-const buttonClass = "bg-[#76c2f4] z-40 py-2 px-10 sm:px-16 rounded-xl font-semibold text-xl focus:outline-none cursor-not-allowed";
-
-
 
 const Airdrop = () => {
   const chainId = Number(STREAM_CHAIN_ID);    
