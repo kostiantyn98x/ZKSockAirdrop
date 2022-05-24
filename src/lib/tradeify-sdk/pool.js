@@ -40,22 +40,3 @@ export const sellTLPSdk = async (provider, wallet, args) => {
   console.log(tx);
   return await wallet.signAndExecuteTransaction(tx)
 }
-
-// Buy tlp function
-export const buyTLPSdk = async (provider, wallet, args) => {
-  const [inputA] = await Promise.all([
-    await getOrCreateCoinOfLargeEnoughBalance(
-      provider,
-      wallet,
-      args.pool.data.balanceA.type,
-      args.amountA
-    )])
-  const tx = maybeSplitThenDeposit([args.pool.data.balanceA.type], {
-    pool: args.pool.id,
-    inputA: inputA.id,
-    amountA: args.amountA,
-    price: Number(args.price).toFixed(0),
-  })
-  console.log(tx)
-  return await wallet.signAndExecuteTransaction(tx)
-}
