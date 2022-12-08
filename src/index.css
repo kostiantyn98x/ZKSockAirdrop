@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .outline-stroke {
+    -webkit-text-stroke: 1px #28a0f0;
+  }
+}
