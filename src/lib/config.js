@@ -10,10 +10,6 @@ export const CONFIG = {
     poolRegistryId: '0x3a1d7de517d83cb23c8cc5db5e0e5440fbd7745c',
     TLPStorageId: '0xa3c2c8a397cbf286c2f31ee32876dc3f0b63b7ba',
 
-    // staking package
-    stakingPackageId: '0xff3db17c31ad40c43d118103a29e384fc096903d',
-    stakingPoolId: '0x0780c719e21cdf6849cace679ecfdc29afb0278f',
-
     // referral package
     referralPackageId: '0xff3db17c31ad40c43d118103a29e384fc096903d',
     referRegistryId: '0x5bbc69d18ca94d47e031634be44274705fcb2a15',
