@@ -27,7 +27,6 @@ const Airdrop = () => {
     //   chainId={Number(chainId)}
     // >
       
-    <StreamClaimingProvider>
     <div>
       <div className="z-10 max-w-lg sm:w-[512px] mx-auto">
         <div className="flex w-full">
@@ -71,8 +70,6 @@ const Airdrop = () => {
         <Circles />
       </div>
     </div>
-    </StreamClaimingProvider>
-    </StreamProvider>
   );
 };
 
