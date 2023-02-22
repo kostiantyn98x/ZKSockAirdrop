@@ -5,18 +5,6 @@ export const CONFIG = {
     // link: 'http://localhost:3000/',
     link: 'https://tradeify.app/',
 
-    // tokenomics
-    eth_id: '0xebccab84155eead8e94e9f35f0cd9ab634b9351b',
-    eth: '0xc859f1c022ad9e31fe24cb040dbbe8f1d8efe5a4::eth::ETH',
-
-    btc_id: '0x7916e5f3fe51d2c6751b7650098e7c2906f126d0',
-    btc: '0x7f94eebe9c5cd346fc921c3daf60490313a70b9a::btc::BTC',
-
-    try_id: '0x0736c3753c7dc8dc31391dc42f2fb23bf2d236c3',
-    try: '0x83057ac01219da3b8e8c526336e7b57adeb0546::try::TRY',  
-
-    tlp: '0xff3db17c31ad40c43d118103a29e384fc096903d::tlp::TLP',
-
     // mint, buy/sell, swap package
     tradeifyPackageId: '0xff3db17c31ad40c43d118103a29e384fc096903d',
     poolRegistryId: '0x3a1d7de517d83cb23c8cc5db5e0e5440fbd7745c',
