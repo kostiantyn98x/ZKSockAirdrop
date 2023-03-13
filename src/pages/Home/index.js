@@ -29,6 +29,7 @@ import {
     IfWalletNotConnected,
 } from "flair-sdk";
 
+
 import { useMediaQuery } from 'react-responsive';
 
 
