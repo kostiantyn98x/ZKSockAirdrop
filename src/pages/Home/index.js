@@ -31,6 +31,7 @@ import {
 
 import { useMediaQuery } from 'react-responsive';
 
+
 const STREAM_CHAIN_ID = "42161";
 const STREAM_CONTRACT_ADDRESS = "0x01d356f2a9c7d72d311ccce2670c956a8af9d9b4";
 const buttonClass = "btn btn-primary bg-blue2 m-auto w-50";
